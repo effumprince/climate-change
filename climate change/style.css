@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.39)),url(/pics/matthew-smith-Rfflri94rs8-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+ .main header{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    background-color: rgba(44, 92, 44, 0.274);
+    height: 12vh;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    /* margin-top: 25px; */
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    color: white;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    /* margin-top: 20px; */
+}
+
+
+
+.main .btn button{
+    height:50px;
+    width: 130px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+
+.main .btn button a{
+    color: rgb(19, 71, 19);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.main section{
+    text-align: center;
+}
+
+.main section h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 45px;
+    line-height: 50px;
+    
+}
+.main section h1:hover{
+    animation: ;
+}
+
+.main section button{
+    height: 7vh;
+    width: 10vw;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.main section button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 43, 5);
+    font-size: 15px;
+}
+
+.about{
+display: flex;
+justify-content: center;
+gap: 50px;
+margin-top: 40px;
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.about h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 80, 9);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.about img{
+    border-radius: 360px;
+    object-fit: cover;
+}
+
+.facts{
+    
+    background-color: rgb(233, 231, 231);
+    margin-top: 40px;
+
+}
+.facts h2{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+margin-top: 30px;
+color: rgba(28, 92, 28, 0.979);
+}
+
+.mainfact{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 60vh;
+    margin-top: 40px;
+}
+
+
+.items{
+    background-color: white;
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+ box-shadow: 1px 1px 6px rgba(214, 212, 212, 0.658) ;
+}
+
+.items:hover{
+    transform: translateY(-12px);
+    transition: 1s;
+    color: white;
+    background-color: rgba(36, 80, 36, 0.795);
+}
+
+.items p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+   
+}
+.items h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 120px;
+}
+
+
+footer{
+    background-color: rgba(1, 20, 1, 0.925);
+    height: 50vh;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.foot h2{
+    margin-top: 30px;
+    color: rgb(106, 148, 106);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.foot p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.foot p a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.foot .footlink{
+    display: block;
+}
+
+.fot1 p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 28px;
+}
+
+
+
+/* discover page */
+
+.discover header{
+    background-color: rgba(29, 63, 29, 0.753);
+    display: flex;
+    margin-top: 0px;
+    
+    justify-content: center;
+    height: 12vh;
+    gap: 200px;
+}
+.discover nav ul {
+    margin-top: 30px;
+}
+.discover .logo{
+    margin-top: 30px;
+}
+
+.discover header .btn button{
+    height: 38px;
+    width: 120px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.discover header .btn button a{
+    text-decoration: none;
+    font-size: 17px;
+    color: green;
+}
+
+.clim{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.clim1{
+    margin-top: 70px;
+
+    .clim3{
+margin-top: 30px;
+    }
+
+}
+.clim2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+        color: green;
+}
+
+.clim2 p{
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 25px;
+
+}
+
+.clim3 h2{
+    color: green;
+    font-size: 24px;
+}
+
+.clim3 p{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+.clim img{
+margin-top: 50px;
+}
+
+.learn{
+    background-color: rgb(238, 233, 233);
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 85vh;
+    box-shadow: 1px 1px 6px rgba(214, 212, 212, 0.753);
+}
+
+.leitems{
+    background-color: white;
+height: 60vh;
+width: 26vw;
+margin-top: 70px;
+text-align: center;
+
+}
+.leitems:hover{
+background-color: rgb(38, 65, 38);
+color: white;
+transform: translateY(-15px);
+transition: 1s;
+
+
+}
+
+
+.leitems h4{
+    color: rgb(15, 66, 15);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.leitems p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.leitems button{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(21, 51, 21, 0.973);
+    border-radius: 30px;
+    border: 2px solid rgba(21, 51, 21, 0.973) ;
+}
+
+.leitems button a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.leitems .lei{
+    background-color: green;
+    width: 8vw;
+    border-radius: 360px;
+    height: 18vh ;
+    object-fit: cover;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.leitems p img{
+    margin-top: 20px;
+    color: white;
+
+}
+
+
+
